@@ -79,3 +79,11 @@ body {
 .weather {
     display: none;
 }
+@media (max-width: 600px) {
+    .search {
+        width: fit-content;
+    }
+    .search input {
+        width: 70%;
+    }
+}
