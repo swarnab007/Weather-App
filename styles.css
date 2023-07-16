@@ -73,7 +73,7 @@ body {
     margin-right: 10px;
 }
 .humidity, .wind {
-    font-size: 28px;
+    font-size: 25px;
     margin-top: -5px;
 }
 .weather {
@@ -84,6 +84,10 @@ body {
         width: fit-content;
     }
     .search input {
-        width: 70%;
+        width: 80%;
+    }
+    .details {
+        font-size: 20px;
+       justify-content: space-around;
     }
 }
